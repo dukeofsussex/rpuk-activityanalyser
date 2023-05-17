@@ -76,9 +76,6 @@ $table-head-background-color: $background-dark;
 
 $table-row-hover-background-color: lighten($background, 5%);
 
-$tag-background-color: $background;
-$tag-color: $text-light;
-
 $input-color: $text-light;
 $input-background-color: $background-light;
 
@@ -90,30 +87,6 @@ $input-focus-border-color: $border-hover;
 
 $input-icon-color: $text-light;
 $input-icon-active-color: $text-strong;
-
-$modal-card-head-background-color: $background-dark;
-
-$modal-card-title-color: $text-strong;
-
-$modal-card-body-background-color: $background;
-
-$pagination-color: $text;
-
-$pagination-hover-color: $text-light;
-$pagination-hover-border-color: $border-hover;
-
-$pagination-focus-color: $text-light;
-$pagination-focus-border-color: $border-hover;
-
-$pagination-disabled-color: $text;
-$pagination-disabled-background-color: $background-dark;
-$pagination-disabled-border-color: $background-light;
-
-$pagination-current-color: $primary-invert;
-$pagination-current-background-color: $primary;
-$pagination-current-border-color: $primary;
-
-$pagination-ellipsis-color: $text-light;
 
 $panel-item-border: 1px solid $border;
 
