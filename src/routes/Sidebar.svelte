@@ -50,7 +50,6 @@
       {/if}
     </button>
   </div>
-  <!-- svelte-ignore a11y-missing-attribute -->
   <div class="panel-block is-flex-direction-column is-align-items-stretch is-unselectable"
       class:is-active={false}
       on:click
@@ -58,9 +57,9 @@
       role="presentation">
     <div class="field has-addons is-flex-grow-1">
       <p class="control">
-        <a class="button is-static">
+        <span class="button is-static">
           Threshold
-        </a>
+        </span>
       </p>
       <p class="control is-expanded">
         <input class="input"
@@ -90,9 +89,9 @@
     </div>
     <div class="field has-addons is-flex-grow-1">
       <p class="control">
-        <a class="button is-static">
+        <span class="button is-static">
           Filter
-        </a>
+        </span>
       </p>
       <p class="control is-expanded">
         <input class="input"
