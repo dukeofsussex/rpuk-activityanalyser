@@ -68,7 +68,7 @@
       <tr>
         <td colspan={2 + months.length}
             class="has-text-centered">
-          Nothing to display
+          {($filter.query ? `Nothing found for "${$filter.query}"` : 'Nothing to display')}
         </td>
       </tr>
     {/if}
