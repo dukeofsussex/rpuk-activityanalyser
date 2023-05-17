@@ -41,7 +41,7 @@
 </script>
 
 <svelte:head>
-  <title>RPUK Activity Analyser</title>
+  <title>RPUK Activityanalyser</title>
 </svelte:head>
 
 <main>

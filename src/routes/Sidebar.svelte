@@ -31,7 +31,7 @@
 </script>
 <aside class="panel is-flex is-flex-direction-column">
   <p class="panel-heading">
-    RPUK Activity Analyser
+    RPUK Activityanalyser
   </p>
   <div class="panel-block">
     <button class="button is-primary is-outlined is-fullwidth"

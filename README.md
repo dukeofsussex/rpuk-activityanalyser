@@ -8,7 +8,7 @@ Import and analyse faction/group activity CSVS for [RPUK FiveM](https://roleplay
 
 ## Preview
 
-Try it out [here](https://dukeofsussex.dev/projects/rpuk/aa).
+Try it out [here](https://dukeofsussex.dev/projects/rpuk/activityanalyser).
 
 ## Prerequisites
 
