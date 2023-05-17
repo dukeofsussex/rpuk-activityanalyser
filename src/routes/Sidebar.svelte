@@ -1,7 +1,7 @@
 <script lang="ts">
   import {
     faClipboardUser,
-    faFileImport,
+    faFileCsv,
     faSquareMinus,
     faSquarePlus,
   } from '@fortawesome/free-solid-svg-icons';
@@ -44,7 +44,7 @@
       <span>Generate Report</span>
       {:else}
       <span class="icon is-small">
-        <FaIcon icon={faFileImport} />
+        <FaIcon icon={faFileCsv} />
       </span>
       <span>Import CSV</span>
       {/if}
