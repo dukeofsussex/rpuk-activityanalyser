@@ -44,30 +44,27 @@
   <title>RPUK Activityanalyser</title>
 </svelte:head>
 
-<main>
-  <Octocat />
-  <section class="columns is-hidden-touch m-0">
-    <div class="column">
-      <Sidebar />
-    </div>
-    <div class="column is-three-quarters is-flex is-flex-direction-column">
-      <ImportTextarea />
-      <Table />
-    </div>
-  </section>
-  <section class="columns is-hidden-desktop">
-    <div class="column is-flex is-flex-direction-column
-                is-align-items-center is-justify-content-center">
-      <span class="icon is-large has-text-warning">
-        <FaIcon icon={faExclamationTriangle}
-            size="3x" />
-      </span>
-      <h4 class="is-size-4 has-text-centered">
-        Going to need a larger screen for this one, bossman!
-      </h4>
-    </div>
-  </section>
-</main>
+<Octocat />
+<section class="columns is-hidden-touch m-0">
+  <div class="column">
+    <Sidebar />
+  </div>
+  <div class="column is-three-quarters is-flex is-flex-direction-column">
+    <ImportTextarea />
+    <Table />
+  </div>
+</section>
+<section class="columns is-hidden-desktop is-centered is-flex is-align-items-center">
+  <div class="column has-text-centered">
+    <span class="icon is-large has-text-warning">
+      <FaIcon icon={faExclamationTriangle}
+          size="3x" />
+    </span>
+    <h4 class="is-size-4 has-text-centered">
+      Going to need a larger screen for this one, bossman!
+    </h4>
+  </div>
+</section>
 
 <style lang="scss">
   .is-hidden-desktop {
