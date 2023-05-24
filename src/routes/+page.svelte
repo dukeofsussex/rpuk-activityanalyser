@@ -40,10 +40,6 @@
   });
 </script>
 
-<svelte:head>
-  <title>RPUK Activityanalyser</title>
-</svelte:head>
-
 <Octocat />
 <section class="columns is-hidden-touch m-0">
   <div class="column">
