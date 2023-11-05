@@ -76,7 +76,7 @@ class Report {
     const inflated = inflateRaw(Uint8Array.from(converted), { to: 'string' });
 
     // Add the generic part back to the CSV url if necessary
-    return inflated.split(',').map((csv: string) => (/^\d{19}\/\d{19}\//.test(csv) ? `https://cdn.discordapp.com/attachments/${csv}.csv` : csv));
+    return inflated.split(',').map((csv: string) => (/^\d{19}\/\d{19}\//.test(csv) ? `https://cdn.discordapp.com/attachments/${csv}` : csv));
   }
 
   #addData(entries: ImportedEntry[], date: Date, before: Date) {
@@ -190,7 +190,7 @@ class Report {
 
   static #hashCSVs(csvs: string[]) {
     // Extract the unique part from the CSV url
-    const trimmed = csvs.map((csv) => csv.replace(/https?:\/\/cdn\.discordapp\.com\/attachments\/(.*).csv/, '$1')).join(',');
+    const trimmed = csvs.map((csv) => csv.replace(/https?:\/\/cdn\.discordapp\.com\/attachments\/(.*)/, '$1')).join(',');
     const deflated = deflateRaw(trimmed, {
       level: 9,
     });
